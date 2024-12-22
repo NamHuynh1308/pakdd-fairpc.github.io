@@ -1,3 +1,10 @@
-name: FairPC-PAKDD
+name: fairpc-workshop
 region: us-east-1
+frontend:
+  # The root folder where your project files are located
+  path: .
+
+  # The folder to publish (e.g., where index.html and assets/ are located)
+  publish: .
+
 yamlVersion: 2
